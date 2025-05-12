@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - MONGO_URI=mongodb+srv://vitekukrv:Qwerty123@cluster0.1eyt3ga.mongodb.net/news?retryWrites=true&w=majority&appName=Cluster0

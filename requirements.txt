@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+motor
+aiohttp
+feedparser
+apscheduler
+jinja2
